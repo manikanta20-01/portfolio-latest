@@ -510,9 +510,10 @@ noscript {
   display: flex;
   flex-direction: column;
   width: 60%;
-  height: 100%;
-  align-items: flex-start;
+  height: 70%;
+  align-items: center;
   justify-content: center;
+
 }
 #hello-friend {
   font-size: 3.5rem;
