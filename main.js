@@ -1,4 +1,3 @@
-var audio = document.getElementById("audioPlayer"),
   loader = document.getElementById("preloader");
 function settingtoggle() {
   document
@@ -11,11 +10,7 @@ function settingtoggle() {
       .getElementById("soundtogglebuttoncontainer")
       .classList.toggle("soundmodeshow");
 }
-function playpause() {
-  !1 == document.getElementById("switchforsound").checked
-    ? audio.pause()
-    : audio.play();
-}
+
 function visualmode() {
   document.body.classList.toggle("light-mode"),
     document.querySelectorAll(".needtobeinvert").forEach(function (e) {

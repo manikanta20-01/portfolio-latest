@@ -217,7 +217,6 @@ html {
   position: relative;
   width: 40px;
   height: 40px;
-  background-image: url(src/png/crescent-moon\\(1\).png);
   background-size: 50%;
   transition-duration: 0.5s;
   cursor: pointer;
@@ -500,7 +499,7 @@ noscript {
 }
 .landing-page-container {
   width: 100%;
-  height: calc(100vh - 115px);
+  height: calc(115vh - 115px);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -606,11 +605,14 @@ noscript {
 #work {
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: center;
 }
 #info-para,
 .about-info p {
   font-weight: 400;
   font-size: 2rem;
+  
+
 }
 #work div {
   display: flex;
